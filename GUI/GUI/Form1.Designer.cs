@@ -33,7 +33,7 @@
             // 
             // Add_contract
             // 
-            this.Add_contract.Location = new System.Drawing.Point(12, 34);
+            this.Add_contract.Location = new System.Drawing.Point(12, 32);
             this.Add_contract.Name = "Add_contract";
             this.Add_contract.Size = new System.Drawing.Size(129, 23);
             this.Add_contract.TabIndex = 0;
@@ -45,7 +45,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(305, 275);
+            this.ClientSize = new System.Drawing.Size(170, 87);
             this.Controls.Add(this.Add_contract);
             this.Name = "Form1";
             this.Text = "Form1";

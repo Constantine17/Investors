@@ -32,5 +32,16 @@ namespace GUI.Properties {
                 return ((string)(this["BankConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\\programs\\GIT_C#\\Investors\\DataBa" +
+            "se\\Bank.accdb")]
+        public string BankDataBase {
+            get {
+                return ((string)(this["BankDataBase"]));
+            }
+        }
     }
 }

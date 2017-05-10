@@ -7,5 +7,8 @@ D:\programs\GIT_C#\Investors\GUI\GUI\obj\Debug\GUI.Properties.Resources.resource
 D:\programs\GIT_C#\Investors\GUI\GUI\obj\Debug\GUI.csproj.GenerateResource.Cache
 D:\programs\GIT_C#\Investors\GUI\GUI\obj\Debug\GUI.exe
 D:\programs\GIT_C#\Investors\GUI\GUI\obj\Debug\GUI.pdb
-D:\programs\GIT_C#\Investors\GUI\GUI\bin\Debug\Bank.accdb
 D:\programs\GIT_C#\Investors\GUI\GUI\obj\Debug\GUI.AddContract.resources
+D:\programs\GIT_C#\Investors\GUI\GUI\bin\Debug\BankDataBase.Designer.cs
+D:\programs\GIT_C#\Investors\GUI\GUI\bin\Debug\BankDataBase.xsc
+D:\programs\GIT_C#\Investors\GUI\GUI\bin\Debug\BankDataBase.xsd
+D:\programs\GIT_C#\Investors\GUI\GUI\bin\Debug\BankDataBase.xss

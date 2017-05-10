@@ -55,16 +55,7 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>BankDataBase.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="BankDataSet.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>BankDataSet.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="BankDataSet1.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>BankDataSet1.xsd</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -91,36 +82,17 @@
     </Compile>
     <None Include="BankDataBase.xsc">
       <DependentUpon>BankDataBase.xsd</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="BankDataBase.xsd">
       <Generator>MSDataSetGenerator</Generator>
       <LastGenOutput>BankDataBase.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="BankDataBase.xss">
       <DependentUpon>BankDataBase.xsd</DependentUpon>
-    </None>
-    <None Include="BankDataSet.xsc">
-      <DependentUpon>BankDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="BankDataSet.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>BankDataSet.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="BankDataSet.xss">
-      <DependentUpon>BankDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="BankDataSet1.xsc">
-      <DependentUpon>BankDataSet1.xsd</DependentUpon>
-    </None>
-    <None Include="BankDataSet1.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>BankDataSet1.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="BankDataSet1.xss">
-      <DependentUpon>BankDataSet1.xsd</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -134,11 +106,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Bank.accdb">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
