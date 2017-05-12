@@ -61,6 +61,8 @@
             this.statusBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.add_comand = new System.Windows.Forms.Button();
             this.name_add = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.bankDataBase1 = new GUI.BankDataBase();
             investorLabel = new System.Windows.Forms.Label();
             label1 = new System.Windows.Forms.Label();
             label2 = new System.Windows.Forms.Label();
@@ -79,6 +81,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.menagerBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.formBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.statusBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bankDataBase1)).BeginInit();
             this.SuspendLayout();
             // 
             // investorLabel
@@ -130,6 +133,16 @@
             label4.Size = new System.Drawing.Size(55, 16);
             label4.TabIndex = 9;
             label4.Text = "Status:";
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            label5.Location = new System.Drawing.Point(30, 156);
+            label5.Name = "label5";
+            label5.Size = new System.Drawing.Size(53, 16);
+            label5.TabIndex = 12;
+            label5.Text = "Name:";
             // 
             // investorComboBox
             // 
@@ -280,23 +293,13 @@
             // 
             // add_comand
             // 
-            this.add_comand.Location = new System.Drawing.Point(92, 194);
+            this.add_comand.Location = new System.Drawing.Point(35, 185);
             this.add_comand.Name = "add_comand";
             this.add_comand.Size = new System.Drawing.Size(75, 23);
             this.add_comand.TabIndex = 11;
             this.add_comand.Text = "ADD";
             this.add_comand.UseVisualStyleBackColor = true;
             this.add_comand.Click += new System.EventHandler(this.add_comand_Click);
-            // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            label5.Location = new System.Drawing.Point(30, 156);
-            label5.Name = "label5";
-            label5.Size = new System.Drawing.Size(53, 16);
-            label5.TabIndex = 12;
-            label5.Text = "Name:";
             // 
             // name_add
             // 
@@ -305,11 +308,27 @@
             this.name_add.Size = new System.Drawing.Size(121, 20);
             this.name_add.TabIndex = 13;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(138, 185);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 14;
+            this.button1.Text = "Cancel";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // bankDataBase1
+            // 
+            this.bankDataBase1.DataSetName = "BankDataBase";
+            this.bankDataBase1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
             // AddContract
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(247, 220);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.name_add);
             this.Controls.Add(label5);
             this.Controls.Add(this.add_comand);
@@ -338,6 +357,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.menagerBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.formBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.statusBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bankDataBase1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -370,5 +390,7 @@
         private System.Windows.Forms.BindingSource statusBindingSource;
         private System.Windows.Forms.Button add_comand;
         private System.Windows.Forms.TextBox name_add;
+        private System.Windows.Forms.Button button1;
+        private BankDataBase bankDataBase1;
     }
 }

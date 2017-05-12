@@ -51,6 +51,12 @@
     <Compile Include="AddContract.Designer.cs">
       <DependentUpon>AddContract.cs</DependentUpon>
     </Compile>
+    <Compile Include="AddInvestor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddInvestor.Designer.cs">
+      <DependentUpon>AddInvestor.cs</DependentUpon>
+    </Compile>
     <Compile Include="BankDataBase.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -67,6 +73,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="AddContract.resx">
       <DependentUpon>AddContract.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddInvestor.resx">
+      <DependentUpon>AddInvestor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

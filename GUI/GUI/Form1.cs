@@ -22,5 +22,11 @@ namespace GUI
             AddContract window = new AddContract();
             window.ShowDialog();
         }
+
+        private void Add_Investor_Click(object sender, EventArgs e)
+        {
+            AddInvestor window = new AddInvestor();
+            window.ShowDialog();
+        }
     }
 }

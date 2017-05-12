@@ -29,11 +29,12 @@
         private void InitializeComponent()
         {
             this.Add_contract = new System.Windows.Forms.Button();
+            this.Add_Investor = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Add_contract
             // 
-            this.Add_contract.Location = new System.Drawing.Point(12, 32);
+            this.Add_contract.Location = new System.Drawing.Point(12, 33);
             this.Add_contract.Name = "Add_contract";
             this.Add_contract.Size = new System.Drawing.Size(129, 23);
             this.Add_contract.TabIndex = 0;
@@ -41,11 +42,22 @@
             this.Add_contract.UseVisualStyleBackColor = true;
             this.Add_contract.Click += new System.EventHandler(this.Add_contract_Click);
             // 
+            // Add_Investor
+            // 
+            this.Add_Investor.Location = new System.Drawing.Point(12, 80);
+            this.Add_Investor.Name = "Add_Investor";
+            this.Add_Investor.Size = new System.Drawing.Size(129, 23);
+            this.Add_Investor.TabIndex = 1;
+            this.Add_Investor.Text = "Новый инвестор";
+            this.Add_Investor.UseVisualStyleBackColor = true;
+            this.Add_Investor.Click += new System.EventHandler(this.Add_Investor_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(170, 87);
+            this.ClientSize = new System.Drawing.Size(170, 150);
+            this.Controls.Add(this.Add_Investor);
             this.Controls.Add(this.Add_contract);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -56,6 +68,7 @@
         #endregion
 
         private System.Windows.Forms.Button Add_contract;
+        private System.Windows.Forms.Button Add_Investor;
     }
 }
 

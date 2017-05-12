@@ -43,7 +43,7 @@ namespace GUI
         private void add_comand_Click(object sender, EventArgs e)
         {
             BankDataBase.ContractRow addCont = bankDataBase.Contract.NewContractRow();
-            //int x = Convert.ToUInt32();
+           
             addCont.Investor = Convert.ToInt32(investorComboBox.SelectedValue);
             addCont.Client = Convert.ToInt32(clientComboBox.SelectedValue);
             addCont.Maneger = Convert.ToInt32(manegerComboBox.SelectedValue);
@@ -53,10 +53,15 @@ namespace GUI
 
             bankDataBase.Contract.Rows.Add(addCont);
             contractTableAdapter.Update(bankDataBase.Contract);
+            
 
             this.Close();
 
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

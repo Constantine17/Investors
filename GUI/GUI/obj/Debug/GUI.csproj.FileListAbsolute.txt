@@ -12,3 +12,4 @@ D:\programs\GIT_C#\Investors\GUI\GUI\bin\Debug\BankDataBase.Designer.cs
 D:\programs\GIT_C#\Investors\GUI\GUI\bin\Debug\BankDataBase.xsc
 D:\programs\GIT_C#\Investors\GUI\GUI\bin\Debug\BankDataBase.xsd
 D:\programs\GIT_C#\Investors\GUI\GUI\bin\Debug\BankDataBase.xss
+D:\programs\GIT_C#\Investors\GUI\GUI\obj\Debug\GUI.AddInvestor.resources
